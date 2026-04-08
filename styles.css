@@ -154,6 +154,7 @@ header {
     border-radius: 7px;
     font-size: 17px;
     transition: 0.2s;
+    color: #161A22;
     cursor: pointer;
 }
 
@@ -281,7 +282,7 @@ h2 {
     color: white;
 }
 
-.container-history p {
+.container-history>div p {
     font-family: FedraSansProNormal;
     font-size: 18px;
 }
@@ -485,8 +486,8 @@ footer p {
     justify-content: center;
     align-items: center;
     position: relative;
-    min-width: 40%;
-    min-height: 50%;
+    width: 40%;
+    height: auto;
     background-color: #161A22;
     border: #FC285D 3px solid;
     border-radius: 10px;
@@ -518,6 +519,7 @@ footer p {
 .pop-up form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .pop-up .input-group {
@@ -561,6 +563,9 @@ footer p {
     border: white 1px solid;
 }
 
+.pop-up .input-group:last-of-type{
+    min-width: 95%;
+}
 
 .pop-up select {
     width: 100%;
@@ -642,8 +647,32 @@ footer p {
         transform: translate(-50%, 0%) rotate(-45deg);
     }
 
+    .container-table-group {
+        padding: 30px 15px;
+    }
+
+    .container-table-group table {
+        display: block;
+        /* Заставляем таблицу вести себя как обычный блок (div) */
+        width: 100%;
+        /* Строго по ширине экрана */
+        overflow-x: auto;
+        /* Магический горизонтальный скролл */
+        white-space: nowrap;
+        /* Запрещаем тексту переноситься на новые строки, чтобы таблица не сплющивалась */
+        border-bottom: rgb(76, 76, 76) 1px solid;
+        /* Возвращаем нижнюю рамку, так как у block она может пропасть */
+    }
+
+    .container-history {
+        display: flex;
+        flex-direction: column;
+    }
+
     .container-history>img {
-        display: none;
+        margin: 0 auto;
+        min-width: 65%;
+        float: none;
     }
 
     .container-form h5 {
@@ -654,7 +683,7 @@ footer p {
         padding-top: 50px;
     }
 
-    .container-history p {
+    .container-history>div p {
         font-size: 16px;
     }
 
@@ -681,10 +710,14 @@ footer p {
         width: 100%;
         height: 300px;
     }
+
+    .pop-up{
+        width: 312px;
+    }
 }
 
 @media (max-width: 992px) {
-    .container-table-group table{
+    .container-table-group table {
         text-wrap: nowrap;
         display: block;
         overflow-x: auto;
@@ -701,7 +734,7 @@ footer p {
     }
 
     .container-history>img {
-        max-width: 300px;
+        max-width: 330px;
     }
 
     .container-form {
