@@ -653,15 +653,10 @@ footer p {
 
     .container-table-group table {
         display: block;
-        /* Заставляем таблицу вести себя как обычный блок (div) */
         width: 100%;
-        /* Строго по ширине экрана */
         overflow-x: auto;
-        /* Магический горизонтальный скролл */
         white-space: nowrap;
-        /* Запрещаем тексту переноситься на новые строки, чтобы таблица не сплющивалась */
         border-bottom: rgb(76, 76, 76) 1px solid;
-        /* Возвращаем нижнюю рамку, так как у block она может пропасть */
     }
 
     .container-history {
@@ -703,7 +698,7 @@ footer p {
     }
 
     .container-contact button {
-        width: 30%;
+        width: 40%;
     }
 
     .container-map iframe {
