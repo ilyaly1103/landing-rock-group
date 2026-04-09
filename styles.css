@@ -112,7 +112,7 @@ header {
 
 .container-rock {
     display: flex;
-    background-image: url(img/photo-1692271931628-adc2b16670dd.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(img/photo-1692271931628-adc2b16670dd.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
