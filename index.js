@@ -50,7 +50,6 @@ ticketButtons.forEach((element) => {
 
 closeButton.addEventListener("click", () => {
     document.getElementById("shadow").style.display = "none";
-    document.body.classList.remove("no-scroll");
     ticketForm.reset();
 });
 
