@@ -44,7 +44,6 @@ buttonToBuyTicket.addEventListener("click", () => {
 ticketButtons.forEach((element) => {
     element.addEventListener("click", () => {
         document.getElementById("shadow").style.display = "flex";
-        document.body.classList.add("no-scroll");
     });
 });
 
