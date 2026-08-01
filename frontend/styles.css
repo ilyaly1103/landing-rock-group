@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: "FedraSansProLight";
-    src: url(fonts/FedraSansPro-Light.woff) format("woff");
-    src: url(fonts/FedraSansPro-Light.woff2) format("woff2");
+    src: url(./fonts/FedraSansPro-Light.woff) format("woff");
+    src: url(./fonts/FedraSansPro-Light.woff2) format("woff2");
 }
 
 body {
