@@ -1,0 +1,28 @@
+{
+  "name": "test-assignment",
+  "version": "1.0.0",
+  "description": "This is a responsive landing page for a Ukrainian rock band, built with HTML, CSS (Flexbox & Grid), and vanilla JavaScript. It features a custom mobile burger menu, smooth scrolling, and an interactive concert table. The project is fully optimized and adapted for seamless viewing on desktop, tablet, and mobile devices.",
+  "main": "",
+  "scripts": {
+    "start": "node backend/backend.mjs",
+    "dev": "nodemon backend/backend.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyaly1103/landing-rock-group.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ilyaly1103/landing-rock-group/issues"
+  },
+  "homepage": "https://github.com/ilyaly1103/landing-rock-group#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "node": "^26.5.1",
+    "nodemon": "^3.1.14"
+  }
+}
