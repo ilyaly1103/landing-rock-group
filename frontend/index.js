@@ -72,7 +72,7 @@ ticketForm.addEventListener("submit", (event) => {
     city: document.getElementById("popup-city").value
 };
 
-    const url = "http://127.0.0.1:5000/buy-ticket";
+    const url = "https://landing-rock-group.onrender.com/buy-ticket";
 
     fetch(url, {
         method: "POST",
@@ -102,7 +102,7 @@ form.addEventListener("submit", function (event) {
         textArea: document.getElementById("message").value
     }
 
-    const url = "http://127.0.0.1:5000/contact";
+    const url = "https://landing-rock-group.onrender.com/contact";
 
     fetch(url, {
         method: "POST",
