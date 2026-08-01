@@ -1,25 +1,25 @@
 @font-face {
     font-family: "FedraSansProMedium";
-    src: url(./frontend/fonts/FedraSansPro-Medium.woff) format("woff");
-    src: url(./frontend/fonts/FedraSansPro-Medium.woff2) format("woff2");
+    src: url(fonts/FedraSansPro-Medium.woff) format("woff");
+    src: url(fonts/FedraSansPro-Medium.woff2) format("woff2");
 }
 
 @font-face {
     font-family: "FedraSansProBold";
-    src: url(./frontend/fonts/FedraSansPro-Bold.woff) format("woff");
-    src: url(./frontend/fonts/FedraSansPro-Bold.woff2) format("woff2");
+    src: url(fonts/FedraSansPro-Bold.woff) format("woff");
+    src: url(fonts/FedraSansPro-Bold.woff2) format("woff2");
 }
 
 @font-face {
     font-family: "FedraSansProNormal";
-    src: url(./frontend/fonts/FedraSansPro-Normal.woff) format("woff");
-    src: url(./frontend/fonts/FedraSansPro-Normal.woff2) format("woff2");
+    src: url(fonts/FedraSansPro-Normal.woff) format("woff");
+    src: url(fonts/FedraSansPro-Normal.woff2) format("woff2");
 }
 
 @font-face {
     font-family: "FedraSansProLight";
-    src: url(./frontend/fonts/FedraSansPro-Light.woff) format("woff");
-    src: url(./frontend/fonts/FedraSansPro-Light.woff2) format("woff2");
+    src: url(fonts/FedraSansPro-Light.woff) format("woff");
+    src: url(fonts/FedraSansPro-Light.woff2) format("woff2");
 }
 
 body {
@@ -112,7 +112,7 @@ header {
 
 .container-rock {
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(./frontend/img/photo-1692271931628-adc2b16670dd.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(img/photo-1692271931628-adc2b16670dd.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
